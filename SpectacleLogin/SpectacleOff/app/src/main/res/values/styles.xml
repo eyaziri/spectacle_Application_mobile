@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GenreTag">
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:background">@drawable/genre_tag_bg</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="CircleImage">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:background">@drawable/circle_bg</item>
+    </style>
+
+    <!-- ✅ Style combiné pour le Spinner -->
+    <style name="SpinnerTextStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:textColor">#FFFFFF</item> <!-- Texte blanc -->
+        <item name="android:background">@drawable/spinner_dropdown_background</item> <!-- Fond sombre avec coins arrondis -->
+        <item name="android:popupBackground">@drawable/spinner_dropdown_background</item> <!-- Dropdown sombre -->
+    </style>
+
+    <!-- ✅ Style pour les éléments dans la liste déroulante -->
+    <style name="SpinnerDropDownStyle">
+        <item name="android:background">#1E1E1E</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>

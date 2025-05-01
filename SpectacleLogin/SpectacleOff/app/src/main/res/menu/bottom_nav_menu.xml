@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_theatre"
+        android:icon="@drawable/img_1"
+        android:title="Théâtre" />
+    <item
+        android:id="@+id/nav_musique"
+        android:icon="@drawable/img_2"
+        android:title="Concert" />
+    <item
+        android:id="@+id/nav_dance"
+        android:icon="@drawable/img_4"
+        android:title="Danse" />
+    <item
+        android:id="@+id/nav_standup"
+        android:icon="@drawable/img_3"
+        android:title="StandUp" />
+</menu>

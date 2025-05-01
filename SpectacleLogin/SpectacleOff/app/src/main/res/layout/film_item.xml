@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/card_background"
+    android:layout_margin="8dp"
+    android:padding="8dp"
+    android:elevation="4dp"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/image_spectacle"
+        android:layout_width="160dp"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/image_rounded"
+        android:contentDescription="Affiche du spectacle" />
+
+
+    <TextView
+        android:id="@+id/title_spectacle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Titre"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>

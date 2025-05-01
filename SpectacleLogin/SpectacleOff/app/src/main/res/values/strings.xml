@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SpectacleOff</string>
+    <string-array name="search_options">
+        <item>Recherche par titre</item>
+        <item>Recherche par lieu</item>
+    </string-array>
+
+
+</resources>
